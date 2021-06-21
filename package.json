@@ -1,0 +1,13 @@
+{
+  "name": "groomSass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "node-sass": "node-sass",
+    "sass": "node-sass -w -r styles/main.scss ./style.css"
+  }
+}
